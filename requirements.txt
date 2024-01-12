@@ -90,7 +90,7 @@ nbconvert==7.12.0
 nbformat==5.9.2
 nest-asyncio==1.5.8
 notebook_shim==0.2.3
-numpy==1.24.2
+numpy==1.26.3
 outcome==1.3.0.post0
 overrides==7.4.0
 packaging==23.1
