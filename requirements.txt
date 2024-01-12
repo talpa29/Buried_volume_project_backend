@@ -3,4 +3,3 @@ Flask_Cors==3.0.10
 morfeus_ml==0.7.2
 numpy==1.23.5
 matplotlib==3.7.1
-winpexpect==1.5
