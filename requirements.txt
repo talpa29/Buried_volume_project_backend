@@ -1,4 +1,4 @@
-setuptools==67.0.3
+setuptools==68.2.2
 Flask==2.2.3
 Flask_Cors==3.0.10
 morfeus_ml==0.7.2
