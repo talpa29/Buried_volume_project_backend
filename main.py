@@ -66,7 +66,7 @@ def all_molecules():
                 if use_Sterimol:
                     sterimol = Sterimol(elements, coordinates, 1, 2)
                     sterimol_params = sterimol.calculate()
-                    sterimol_radius = max(sterimol_params.B_5_value, sterimol_params.B_1_value, sterimol_params.L_value)
+                    sterimol_radius = min(sterimol_params.B_5_value, sterimol_params.B_1_value, sterimol_params.L_value)
                     bv = BuriedVolume(elements, coordinates, center_atom, excluded_atoms, z_axis_atoms=zaxis_atoms, radius=sterimol_radius)    
                 else:
                     bv = BuriedVolume(elements, coordinates, center_atom, excluded_atoms, z_axis_atoms=zaxis_atoms)
